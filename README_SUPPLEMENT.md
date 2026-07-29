@@ -16,6 +16,5 @@ resolución. No contiene información personal ni versiones de autoría.
 - `checksums_sha256.txt`: SHA-256 de cada archivo del suplemento.
 
 El suplemento está publicado en el repositorio público
-`https://github.com/gabrielmontufar/article-107-bayesian-damping-sufficiency`
-en el commit `bd2ee08ec2495c2b2ca3145a2c488bc37d654073`. Este archivo conserva
-la entrega suplementaria verificable de la revisión.
+`https://github.com/gabrielmontufar/article-107-bayesian-damping-sufficiency`.
+Este archivo conserva la entrega suplementaria verificable de la revisión.
