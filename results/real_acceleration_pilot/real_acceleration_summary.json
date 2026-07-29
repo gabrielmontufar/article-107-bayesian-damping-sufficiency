@@ -1,0 +1,17 @@
+{
+  "source": "Mendeley Data, Bridge vibration monitoring dataset, v2, DOI 10.17632/d3by55pjh7.2",
+  "method": "Hann-windowed averaged periodograms (2048 samples, 50% overlap); half-power bandwidth; bootstrap resampling of PSD segments",
+  "interpretation": "exploratory operational modal damping estimates; not direct free-decay validation",
+  "rows": 319,
+  "stable_frequency_rule": "frequency bins of 0.25 Hz with estimates present in at least 6 of 8 tests",
+  "tests": [
+    "test1",
+    "test2",
+    "test3",
+    "test4",
+    "test5",
+    "test6",
+    "test7",
+    "test8"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "model": "SDOF free decay; conditional amplitude/phase least squares; zeta grid quadrature",
+  "config": {
+    "seed": 20260728,
+    "replicates": 100,
+    "n_windows": [
+      20,
+      50,
+      100,
+      300
+    ],
+    "window_cycles": 5,
+    "f_n_hz": 1.0,
+    "zeta_true": 0.03,
+    "amplitude": 1.0,
+    "phase_rad": 0.35,
+    "sample_rate_hz": 50.0,
+    "noise_sd": 0.5,
+    "epsilon_r": 0.1,
+    "z_value": 1.96,
+    "zeta_grid_min": 0.002,
+    "zeta_grid_max": 0.12,
+    "zeta_grid_points": 240,
+    "priors": [
+      {
+        "name": "debil",
+        "mu": 0.03,
+        "sd": 0.03
+      },
+      {
+        "name": "informativo",
+        "mu": 0.03,
+        "sd": 0.01
+      },
+      {
+        "name": "sesgado",
+        "mu": 0.045,
+        "sd": 0.01
+      }
+    ]
+  },
+  "outputs": {
+    "rows": 1200,
+    "result_csv": "synthetic_results.csv",
+    "aggregate_csv": "synthetic_aggregate.csv"
+  }
+}
